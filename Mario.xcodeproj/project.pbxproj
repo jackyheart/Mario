@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD401ADD1457ECA8009493EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD401ADC1457ECA8009493EC /* Icon.png */; };
+		CD7721491456EA0F0046A521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7721481456EA0F0046A521 /* UIKit.framework */; };
+		CD77214B1456EA0F0046A521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD77214A1456EA0F0046A521 /* Foundation.framework */; };
+		CD77214D1456EA0F0046A521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD77214C1456EA0F0046A521 /* CoreGraphics.framework */; };
+		CD7721531456EA0F0046A521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD7721511456EA0F0046A521 /* InfoPlist.strings */; };
+		CD7721551456EA0F0046A521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7721541456EA0F0046A521 /* main.m */; };
+		CD7721591456EA0F0046A521 /* MarioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7721581456EA0F0046A521 /* MarioAppDelegate.m */; };
+		CD77215C1456EA0F0046A521 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD77215A1456EA0F0046A521 /* MainWindow.xib */; };
+		CD77215F1456EA0F0046A521 /* MarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77215E1456EA0F0046A521 /* MarioViewController.m */; };
+		CD7721621456EA0F0046A521 /* MarioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7721601456EA0F0046A521 /* MarioViewController.xib */; };
+		CD7721771456F79E0046A521 /* mario_sprite_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7721761456F79E0046A521 /* mario_sprite_trans.png */; };
+		CD7721791456FA090046A521 /* mario_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7721781456FA090046A521 /* mario_bg.jpg */; };
+		CD77217C1456FDFA0046A521 /* joypad_base.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77217A1456FDFA0046A521 /* joypad_base.png */; };
+		CD77217D1456FDFA0046A521 /* joypad_head.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77217B1456FDFA0046A521 /* joypad_head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD401ADC1457ECA8009493EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CD7721441456EA0F0046A521 /* Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7721481456EA0F0046A521 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD77214A1456EA0F0046A521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD77214C1456EA0F0046A521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD7721501456EA0F0046A521 /* Mario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mario-Info.plist"; sourceTree = "<group>"; };
+		CD7721521456EA0F0046A521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD7721541456EA0F0046A521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7721561456EA0F0046A521 /* Mario-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mario-Prefix.pch"; sourceTree = "<group>"; };
+		CD7721571456EA0F0046A521 /* MarioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarioAppDelegate.h; sourceTree = "<group>"; };
+		CD7721581456EA0F0046A521 /* MarioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioAppDelegate.m; sourceTree = "<group>"; };
+		CD77215B1456EA0F0046A521 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CD77215D1456EA0F0046A521 /* MarioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarioViewController.h; sourceTree = "<group>"; };
+		CD77215E1456EA0F0046A521 /* MarioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioViewController.m; sourceTree = "<group>"; };
+		CD7721611456EA0F0046A521 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MarioViewController.xib; sourceTree = "<group>"; };
+		CD7721731456EE710046A521 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CD7721761456F79E0046A521 /* mario_sprite_trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario_sprite_trans.png; sourceTree = "<group>"; };
+		CD7721781456FA090046A521 /* mario_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario_bg.jpg; sourceTree = "<group>"; };
+		CD77217A1456FDFA0046A521 /* joypad_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joypad_base.png; sourceTree = "<group>"; };
+		CD77217B1456FDFA0046A521 /* joypad_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joypad_head.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7721411456EA0F0046A521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7721491456EA0F0046A521 /* UIKit.framework in Frameworks */,
+				CD77214B1456EA0F0046A521 /* Foundation.framework in Frameworks */,
+				CD77214D1456EA0F0046A521 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7721391456EA0F0046A521 = {
+			isa = PBXGroup;
+			children = (
+				CD77214E1456EA0F0046A521 /* Mario */,
+				CD7721471456EA0F0046A521 /* Frameworks */,
+				CD7721451456EA0F0046A521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7721451456EA0F0046A521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7721441456EA0F0046A521 /* Mario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7721471456EA0F0046A521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7721481456EA0F0046A521 /* UIKit.framework */,
+				CD77214A1456EA0F0046A521 /* Foundation.framework */,
+				CD77214C1456EA0F0046A521 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD77214E1456EA0F0046A521 /* Mario */ = {
+			isa = PBXGroup;
+			children = (
+				CD7721681456EC490046A521 /* images */,
+				CD7721731456EE710046A521 /* Common.h */,
+				CD7721571456EA0F0046A521 /* MarioAppDelegate.h */,
+				CD7721581456EA0F0046A521 /* MarioAppDelegate.m */,
+				CD77215A1456EA0F0046A521 /* MainWindow.xib */,
+				CD77215D1456EA0F0046A521 /* MarioViewController.h */,
+				CD77215E1456EA0F0046A521 /* MarioViewController.m */,
+				CD7721601456EA0F0046A521 /* MarioViewController.xib */,
+				CD77214F1456EA0F0046A521 /* Supporting Files */,
+			);
+			path = Mario;
+			sourceTree = "<group>";
+		};
+		CD77214F1456EA0F0046A521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7721501456EA0F0046A521 /* Mario-Info.plist */,
+				CD7721511456EA0F0046A521 /* InfoPlist.strings */,
+				CD7721541456EA0F0046A521 /* main.m */,
+				CD7721561456EA0F0046A521 /* Mario-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7721681456EC490046A521 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD401ADC1457ECA8009493EC /* Icon.png */,
+				CD77217A1456FDFA0046A521 /* joypad_base.png */,
+				CD77217B1456FDFA0046A521 /* joypad_head.png */,
+				CD7721781456FA090046A521 /* mario_bg.jpg */,
+				CD7721761456F79E0046A521 /* mario_sprite_trans.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7721431456EA0F0046A521 /* Mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7721651456EA0F0046A521 /* Build configuration list for PBXNativeTarget "Mario" */;
+			buildPhases = (
+				CD7721401456EA0F0046A521 /* Sources */,
+				CD7721411456EA0F0046A521 /* Frameworks */,
+				CD7721421456EA0F0046A521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mario;
+			productName = Mario;
+			productReference = CD7721441456EA0F0046A521 /* Mario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD77213B1456EA0F0046A521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = CD77213E1456EA0F0046A521 /* Build configuration list for PBXProject "Mario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD7721391456EA0F0046A521;
+			productRefGroup = CD7721451456EA0F0046A521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7721431456EA0F0046A521 /* Mario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7721421456EA0F0046A521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7721531456EA0F0046A521 /* InfoPlist.strings in Resources */,
+				CD77215C1456EA0F0046A521 /* MainWindow.xib in Resources */,
+				CD7721621456EA0F0046A521 /* MarioViewController.xib in Resources */,
+				CD7721771456F79E0046A521 /* mario_sprite_trans.png in Resources */,
+				CD7721791456FA090046A521 /* mario_bg.jpg in Resources */,
+				CD77217C1456FDFA0046A521 /* joypad_base.png in Resources */,
+				CD77217D1456FDFA0046A521 /* joypad_head.png in Resources */,
+				CD401ADD1457ECA8009493EC /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7721401456EA0F0046A521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7721551456EA0F0046A521 /* main.m in Sources */,
+				CD7721591456EA0F0046A521 /* MarioAppDelegate.m in Sources */,
+				CD77215F1456EA0F0046A521 /* MarioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD7721511456EA0F0046A521 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7721521456EA0F0046A521 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD77215A1456EA0F0046A521 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD77215B1456EA0F0046A521 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CD7721601456EA0F0046A521 /* MarioViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7721611456EA0F0046A521 /* en */,
+			);
+			name = MarioViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7721631456EA0F0046A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD7721641456EA0F0046A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7721661456EA0F0046A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mario/Mario-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Mario/Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82AF3251-EDE1-46B1-94B5-970270606024";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD7721671456EA0F0046A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mario/Mario-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Mario/Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82AF3251-EDE1-46B1-94B5-970270606024";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD77213E1456EA0F0046A521 /* Build configuration list for PBXProject "Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7721631456EA0F0046A521 /* Debug */,
+				CD7721641456EA0F0046A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7721651456EA0F0046A521 /* Build configuration list for PBXNativeTarget "Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7721661456EA0F0046A521 /* Debug */,
+				CD7721671456EA0F0046A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD77213B1456EA0F0046A521 /* Project object */;
+}
