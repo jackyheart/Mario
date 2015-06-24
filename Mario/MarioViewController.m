@@ -55,7 +55,6 @@
     // init mutable array(s)
     self.walkFrameImgMutArray = [NSMutableArray array];
     
-    
     // mario sprite
     NSString *path = [[NSBundle mainBundle] pathForResource:@"mario_sprite_trans" ofType:@"png"];
     UIImage *marioSpriteSheet = [[UIImage alloc] initWithContentsOfFile:path];//to do: use manual release
